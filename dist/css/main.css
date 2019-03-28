@@ -26,7 +26,7 @@
 
 .ice {
   font-family: Arial, Helvetica, sans-serif;
-  background: #cbfcff;
+  background: #fff;
   color: #333;
   height: 100vh;
   line-height: 1.6;
@@ -52,20 +52,18 @@
 
 .blackout {
   font-family: Arial, Helvetica, sans-serif;
-  background: #333;
-  color: #fff;
+  background: #fff;
+  color: #333;
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
   transition: background 500ms linear, color 500ms linear; }
-  .blackout #yeezyLogo {
-    filter: invert(100%); }
   .blackout .navbar ul li a {
     position: relative;
     font-size: 2rem;
     text-decoration: none;
     font-weight: bold;
-    color: #fff; }
+    color: #333; }
   .blackout .navbar ul li a:before {
     content: "";
     position: absolute;
@@ -73,7 +71,7 @@
     height: 3px;
     bottom: 0;
     left: 0;
-    background: #fff;
+    background: #333;
     visibility: hidden;
     transform: scaleX(0);
     transition: 0.25s linear; }
@@ -152,156 +150,7 @@ section h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  padding-right: 50%;
-  animation: showMe 1.75s ease-in-out infinite 0s forwards;
-  animation-play-state: paused; }
-
-.hs-wrapper:hover img {
-  animation-play-state: running; }
-
-.hs-wrapper img:nth-child(1) {
-  z-index: 37;
-  animation-delay: 0s; }
-
-.hs-wrapper img:nth-child(2) {
-  z-index: 36;
-  animation-delay: 0.05s; }
-
-.hs-wrapper img:nth-child(3) {
-  z-index: 35;
-  animation-delay: 0.1s; }
-
-.hs-wrapper img:nth-child(4) {
-  z-index: 34;
-  animation-delay: 0.15s; }
-
-.hs-wrapper img:nth-child(5) {
-  z-index: 33;
-  animation-delay: 0.2s; }
-
-.hs-wrapper img:nth-child(6) {
-  z-index: 32;
-  animation-delay: 0.25s; }
-
-.hs-wrapper img:nth-child(7) {
-  z-index: 31;
-  animation-delay: 0.3s; }
-
-.hs-wrapper img:nth-child(8) {
-  z-index: 30;
-  animation-delay: 0.35s; }
-
-.hs-wrapper img:nth-child(9) {
-  z-index: 29;
-  animation-delay: 0.4s; }
-
-.hs-wrapper img:nth-child(10) {
-  z-index: 28;
-  animation-delay: 0.45s; }
-
-.hs-wrapper img:nth-child(11) {
-  z-index: 27;
-  animation-delay: 0.5s; }
-
-.hs-wrapper img:nth-child(12) {
-  z-index: 26;
-  animation-delay: 0.55s; }
-
-.hs-wrapper img:nth-child(13) {
-  z-index: 25;
-  animation-delay: 0.6s; }
-
-.hs-wrapper img:nth-child(14) {
-  z-index: 24;
-  animation-delay: 0.65s; }
-
-.hs-wrapper img:nth-child(15) {
-  z-index: 23;
-  animation-delay: 0.7s; }
-
-.hs-wrapper img:nth-child(16) {
-  z-index: 22;
-  animation-delay: 0.75s; }
-
-.hs-wrapper img:nth-child(17) {
-  z-index: 21;
-  animation-delay: 0.8s; }
-
-.hs-wrapper img:nth-child(18) {
-  z-index: 20;
-  animation-delay: 0.85s; }
-
-.hs-wrapper img:nth-child(19) {
-  z-index: 19;
-  animation-delay: 0.9s; }
-
-.hs-wrapper img:nth-child(20) {
-  z-index: 18;
-  animation-delay: 0.95s; }
-
-.hs-wrapper img:nth-child(21) {
-  z-index: 17;
-  animation-delay: 1s; }
-
-.hs-wrapper img:nth-child(22) {
-  z-index: 16;
-  animation-delay: 1.05s; }
-
-.hs-wrapper img:nth-child(23) {
-  z-index: 15;
-  animation-delay: 1.1s; }
-
-.hs-wrapper img:nth-child(24) {
-  z-index: 14;
-  animation-delay: 1.15s; }
-
-.hs-wrapper img:nth-child(25) {
-  z-index: 13;
-  animation-delay: 1.2s; }
-
-.hs-wrapper img:nth-child(26) {
-  z-index: 12;
-  animation-delay: 1.25s; }
-
-.hs-wrapper img:nth-child(27) {
-  z-index: 11;
-  animation-delay: 1.3s; }
-
-.hs-wrapper img:nth-child(28) {
-  z-index: 10;
-  animation-delay: 1.35s; }
-
-.hs-wrapper img:nth-child(29) {
-  z-index: 9;
-  animation-delay: 1.4s; }
-
-.hs-wrapper img:nth-child(30) {
-  z-index: 8;
-  animation-delay: 1.45s; }
-
-.hs-wrapper img:nth-child(31) {
-  z-index: 7;
-  animation-delay: 1.5s; }
-
-.hs-wrapper img:nth-child(32) {
-  z-index: 6;
-  animation-delay: 1.55s; }
-
-.hs-wrapper img:nth-child(33) {
-  z-index: 5;
-  animation-delay: 1.6s; }
-
-.hs-wrapper img:nth-child(34) {
-  z-index: 4;
-  animation-delay: 1.65s; }
-
-.hs-wrapper img:nth-child(35) {
-  z-index: 3;
-  animation-delay: 1.7s; }
-
-.hs-wrapper img:nth-child(36) {
-  z-index: 2;
-  animation-delay: 1.75s; }
+  padding-right: 50%; }
 
 .imgtext {
   width: 100%;
